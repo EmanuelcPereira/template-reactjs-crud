@@ -115,7 +115,7 @@ describe('Dashboard', () => {
     );
 
     apiMock.onPost('foods').reply(200, {
-      id: 1,
+      id: 5,
       name: 'Ao molho',
       description:
         'Macarrão ao molho branco, fughi e cheiro verde das montanhas.',
